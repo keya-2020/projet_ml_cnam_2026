@@ -1,9 +1,7 @@
 # Data files (too large for git)
-data/*.csv
-data/*.parquet
-data/*.zip
-!data/README.md
-
+data/
+reports/
+results/
 # Models
 *.pkl
 *.h5
@@ -62,6 +60,4 @@ logs/
 .pytest_cache/
 .mypy_cache/
 
-# Outputs (optional - decomment to keep figures out of git)
-# reports/figures/*.png
-# reports/figures/*.jpg
+

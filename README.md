@@ -10,12 +10,12 @@
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/<votre-username>/fraud-detection-baf.git
+git clone https://github.com/keya-2020/projet_ml_cnam_2026.git
 cd fraud-detection-baf
 
 # Créer un environnement virtuel
 python -m venv venv
-source venv/bin/activate  # Sur Windows : venv\Scripts\activate
+Sur Windows : venv\Scripts\activate
 
 # Installer les dépendances
 pip install -r requirements.txt
@@ -42,30 +42,6 @@ jupyter lab notebooks/
 6. **06_deep_learning.ipynb** — Autoencoder et MLP avec TensorFlow/Keras
 7. **07_stacking_ensemble.ipynb** — Méthode d'ensemble combinant les meilleurs modèles
 8. **08_fairness_analysis.ipynb** — Analyse FPR par groupe d'âge et de revenu
-
-### Utilisation du code source
-
-```python
-from src.data_loader import load_baf
-from src.preprocessing import preprocess_pipeline
-from src.models import train_xgboost
-from src.evaluation import evaluate_model
-
-# Chargement et nettoyage
-df = load_baf('data/Base.csv')
-
-# Préparation
-X_train, X_test, y_train, y_test = preprocess_pipeline(df, temporal_split=True)
-
-# Entraînement
-model = train_xgboost(X_train, y_train, handle_imbalance='scale_pos_weight')
-
-# Évaluation
-metrics = evaluate_model(model, X_test, y_test)
-print(metrics)
-```
-
----
 
 ## Méthodologie
 
