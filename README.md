@@ -35,13 +35,13 @@ jupyter lab notebooks/
 ```
 
 1. **01_exploratory_data_analysis.ipynb** — Compréhension du dataset, valeurs manquantes, déséquilibre, dérive temporelle
-2. **02_preprocessing_feature_engineering.ipynb** — Split temporel, encodage, gestion du déséquilibre, features dérivées
-3. **03_baseline_models.ipynb** — Dummy classifier et régression logistique (références)
-4. **04_unsupervised_models.ipynb** — Isolation Forest (détection sans labels)
-5. **05_supervised_models.ipynb** — Random Forest, XGBoost, LightGBM avec interprétabilité SHAP
-6. **06_deep_learning.ipynb** — Autoencoder et MLP avec TensorFlow/Keras
-7. **07_stacking_ensemble.ipynb** — Méthode d'ensemble combinant les meilleurs modèles
-8. **08_fairness_analysis.ipynb** — Analyse FPR par groupe d'âge et de revenu
+2. **02_preprocessing_feature_engineering.ipynb** - Split temporel, encodage, gestion du déséquilibre, features dérivées
+3. **03_baseline_models.ipynb** - Dummy classifier et régression logistique (références)
+4. **04_unsupervised_models.ipynb** - Isolation Forest (détection sans labels)
+5. **05_supervised_models.ipynb** - Random Forest, XGBoost, LightGBM avec interprétabilité SHAP
+6. **06_deep_learning.ipynb** - Autoencoder et MLP avec TensorFlow/Keras
+7. **07_stacking_ensemble.ipynb** - Méthode d'ensemble combinant les meilleurs modèles
+8. **08_fairness_analysis.ipynb** - Analyse FPR par groupe d'âge et de revenu
 
 ## Méthodologie
 
